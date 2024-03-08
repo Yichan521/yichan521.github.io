@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - chanke的第二个个人网站</title>
+        <link>http://example.org/posts/</link>
+        <description>All Posts | chanke的第二个个人网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 08 Mar 2024 15:38:26 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>第一篇文章/简单markdown语法应用</title>
+    <link>http://example.org/instruction/</link>
+    <pubDate>Fri, 08 Mar 2024 15:38:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://example.org/instruction/</guid>
+    <description><![CDATA[总算是完成了个人博客搭建的初步工作了！ 现在的博客以及可以进行一些简单的修改，比如说上传文章、连接到作者的社交主页等等基础的工作了。 虽然距离一]]></description>
+</item>
+<item>
+    <title>自我介绍</title>
+    <link>http://example.org/self-introduction/</link>
+    <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/self-introduction/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
