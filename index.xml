@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>chanke的第二个个人网站</title>
+        <title>chanke的个人博客网站</title>
         <link>http://example.org/</link>
         <description>chanke的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 08 Mar 2024 15:38:26 &#43;0800</lastBuildDate>

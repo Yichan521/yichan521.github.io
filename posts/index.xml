@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - chanke的第二个个人网站</title>
+        <title>All Posts - chanke的个人博客网站</title>
         <link>http://example.org/posts/</link>
-        <description>All Posts | chanke的第二个个人网站</description>
+        <description>All Posts | chanke的个人博客网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 08 Mar 2024 15:38:26 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>第一篇文章/简单markdown语法应用</title>
     <link>http://example.org/instruction/</link>
