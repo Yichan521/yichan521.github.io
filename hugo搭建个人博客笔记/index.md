@@ -39,7 +39,9 @@
 
    首先去 hugo 官网给自己的博客下载主题：https://themes.gohugo.io/，我这里选择的是loveit主题，简洁优雅，另一个主要原因是我看的视频是用这个来演示的，别的主题我不会用。
 
-   下载 loveit：https://github.com/dillonzq/LoveIt，点击绿色的code按钮，选择download zip，下载解压，把解压得到的文件夹放入你的博客同名文件夹下的”theme“中。
+   下载 loveit：https://github.com/dillonzq/LoveIt，点击绿色的code按钮，选择download zip，下载解压，把解压得到的文件夹放入你的博客同名文件夹下的"theme"[^1]中。
+
+   [^1]: 比如说我的博客名字叫Chanke，就要去Chanke文件夹里找，不出意外的话这个文件夹一般都在C盘-user-xxx里面
 
    进入 loveit 网站：https://hugoloveit.com/zh-cn/theme-documentation-basics/#site-configuration
 
