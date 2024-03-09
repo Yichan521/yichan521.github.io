@@ -3,7 +3,7 @@
 
 1. windows 电脑安装 hugo
 
-   首先进入https://github.com/gohugoio/hugo/releases，选择自己电脑对应的版本下载，我这里下载的是
+   首先进入<https://github.com/gohugoio/hugo/releases>，选择自己电脑对应的版本下载，我这里下载的是
 
    ![](/images/1709873461219.png)
 
@@ -37,13 +37,15 @@
 
 2. 使用 hugo 初步建立静态网站，使用 loveit 作为主题
 
-   首先去 hugo 官网给自己的博客下载主题：https://themes.gohugo.io/，我这里选择的是loveit主题，简洁优雅，另一个主要原因是我看的视频是用这个来演示的，别的主题我不会用。
+   首先去 hugo 官网给自己的博客下载主题：<https://themes.gohugo.io/>，我这里选择的是loveit主题，简洁优雅，另一个主要原因是我看的视频是用这个来演示的，别的主题我不会用。
 
-   下载 loveit：https://github.com/dillonzq/LoveIt，点击绿色的code按钮，选择download zip，下载解压，把解压得到的文件夹放入你的博客同名文件夹下的"theme"[^1]中。
+   下载 loveit：<https://github.com/dillonzq/LoveIt>，点击绿色的code按钮，选择download zip，下载解压，把解压得到的文件夹放入你的博客同名文件夹下的"theme"[^1]中。
+
+   ### 请务必注意！解压得到的文件名字应该是loveit-master，我们需要把"-master"删掉！否则hugo会找不到你的主题！
 
    [^1]: 比如说我的博客名字叫Chanke，就要去Chanke文件夹里找，不出意外的话这个文件夹一般都在C盘-user-xxx里面
 
-   进入 loveit 网站：https://hugoloveit.com/zh-cn/theme-documentation-basics/#site-configuration
+   进入 loveit 网站：<https://hugoloveit.com/zh-cn/theme-documentation-basics/#site-configuration>
 
    右上角可以自行更改语言，我们略过前面的步骤直接从 2.4 开始，在此之前先复制下面的代码块到博客文件夹内的 toml 后缀文件中，替换掉原本的内容
 
@@ -729,7 +731,7 @@
    hugo new posts/first_post.md
    ```
 
-   然后我们就可以在 content 文件夹发现建立了一个”post“文件夹，里面是一个 md 后缀的 markdown 文件，这是你博客的第一篇文章，进入后，将第三行的 true 改为 false。
+   然后我们就可以在 content 文件夹发现建立了一个"post"文件夹，里面是一个 md 后缀的 markdown 文件，这是你博客的第一篇文章，进入后，将第三行的 true 改为 false。
 
    在终端输入
 
@@ -737,7 +739,7 @@
    hugo serve
    ```
 
-   然后在浏览器网页栏输入：http://localhost:1313
+   然后在浏览器网页栏输入：<http://localhost:1313>
 
    然后你会看到类似于这个的一个简单网页
 
@@ -747,7 +749,7 @@
 
 3. vs code 的下载、汉化与配置以及 markdown 语句的简单学习
 
-   进入 vs 官网：https://code.visualstudio.com/，下载对应windows的vs code
+   进入 vs 官网：<https://code.visualstudio.com/>，下载对应windows的vs code
 
    下载成功之后进入软件，点击右侧从上往下数第五个图标，
 
@@ -759,11 +761,11 @@
 
    markdown 的学习是创建个人博客的必经之路，好在它简单轻便并不复杂，所以容易上手。
 
-   在https://www.jianshu.com/p/335db5716248中可以学习其基本用法，略微了解之后即可尝试在自己的博客上发布文章。
+   在<https://hugoloveit.com/zh-cn/basic-markdown-syntax/>中可以学习其基本用法，略微了解之后即可尝试在自己的博客上发布文章。
 
 4. 使用 vs code 建立博客
 
-   点击左上角的文件，打开之前的博客文件夹，使用 ctrl+”~“快捷键，在出现的终端中输入”cd..“回到上一级子目录，按之前的步骤在 vscode 的终端输入命令创建一个新的站点。
+   点击左上角的文件，打开之前的博客文件夹，使用 ctrl+"~"快捷键，在出现的终端中输入"cd.."回到上一级子目录，按之前的步骤在 vscode 的终端输入命令创建一个新的站点。
 
    按照与上面相同的方法创建即可。
 
@@ -777,7 +779,7 @@
 
    像这样的简单的修改不过多赘述，诸位自行在 loveit 官网查阅了解，很快就能熟悉操作。
 
-   如果大家希望把自己的图片转换为网络连接，推荐使用https://postimages.org/
+   如果大家希望把自己的图片转换为网络连接，推荐使用<https://postimages.org/>
 
 5. 发布文章并用 markdown 语句丰富文章内容
 
@@ -890,13 +892,13 @@
 
    我们需要拥有一个 github 的账号和 GitHub desktop 软件。
 
-   浏览器输入：www.github.com进入github官网，在官网注册账号。
+   浏览器输入：<www.github.com>进入github官网，在官网注册账号。
 
    注意，如果你是学生，可以申请学校邮箱，注册 github，认证学生身份，部分学校会为学生购买 github 的增值服务，好处多多。
 
    如果你无法点进这个网址，在微软商店下载 watt toolkit，其内有 github 的免费加速服务，不做过多赘述，此处不懂可以自行上网搜索 github 加速方法。
 
-   github 桌面版官网：https://desktop.github.com/，下载好软件选择github登录即可。
+   github 桌面版官网：<https://desktop.github.com/>，下载好软件选择github登录即可。
 
    紧接着在博客文件夹的终端下输入 hugo，可以发现文件夹内多了 public 文件夹，这个文件夹存储了我们静态网页的信息。
 
@@ -962,7 +964,7 @@
 
    来访问你的博客网站了！
 
-   比如我的博客网站是：https://yichan521.github.io/。
+   比如我的博客网站是：<https://yichan521.github.io/>。
 
 7. 博客的更新和修改
 
