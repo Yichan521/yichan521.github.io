@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AC%94%E8%AE%B0\/"
-        },"genre": "posts","wordcount":  7648 ,
+        },"genre": "posts","wordcount":  7707 ,
         "url": "http:\/\/example.org\/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AC%94%E8%AE%B0\/","datePublished": "2024-03-08T20:58:26+08:00","dateModified": "2024-03-08T20:58:26+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">hugo搭建个人博客笔记</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chanke</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-03-08">2024-03-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;7648 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-03-08">2024-03-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;7707 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;16 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -1557,7 +1557,7 @@
 <p>vs code 的下载、汉化与配置以及 markdown 语句的简单学习</p>
 <p>进入 vs 官网：<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer ">https://code.visualstudio.com/</a>，下载对应windows的vs code</p>
 <p>下载成功之后进入软件，点击右侧从上往下数第五个图标，</p>
-<p>搜索”chinese“，安装后重启即可完成汉化。</p>
+<p>搜索&quot;chinese&quot;，安装后重启即可完成汉化。</p>
 <p>此外我额外安装了以下插件</p>
 <p><img
         class="lazyload"
@@ -1572,9 +1572,26 @@
 </li>
 <li>
 <p>使用 vs code 建立博客</p>
-<p>点击左上角的文件，打开之前的博客文件夹，使用 ctrl+&quot;~&ldquo;快捷键，在出现的终端中输入&quot;cd..&ldquo;回到上一级子目录，按之前的步骤在 vscode 的终端输入命令创建一个新的站点。</p>
-<p>按照与上面相同的方法创建即可。</p>
-<p>在复制完六百多行的代码后，我们可以适当删改里面的部分内容，让网页显示为我们希望它显示的那样，举个例子：</p>
+<p>点击左上角的文件，打开之前的博客文件夹。</p>
+<p>如果你没有按之前的步骤进行汉化的话，你需要点击的就是点击左上角-File-Open Folder，</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/Snipaste_2024-03-09_23-43-51.png"
+        data-srcset="/images/Snipaste_2024-03-09_23-43-51.png, /images/Snipaste_2024-03-09_23-43-51.png 1.5x, /images/Snipaste_2024-03-09_23-43-51.png 2x"
+        data-sizes="auto"
+        alt="/images/Snipaste_2024-03-09_23-43-51.png"
+        title="/images/Snipaste_2024-03-09_23-43-51.png" /><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>点击右下角的&quot;选择文件夹&quot;。不出意外的话，你应该会看到类似下图的样子！</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/vx_20240309235217.png"
+        data-srcset="/images/vx_20240309235217.png, /images/vx_20240309235217.png 1.5x, /images/vx_20240309235217.png 2x"
+        data-sizes="auto"
+        alt="/images/vx_20240309235217.png"
+        title="/images/vx_20240309235217.png" /></p>
+<p>接下来我们点进hugo.toml，我们可以通过检索注释，适当删改里面的部分内容，让网页显示为我们希望它显示的那样，举个例子：</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -1583,7 +1600,7 @@
         data-sizes="auto"
         alt="/images/1709884152161.png"
         title="70988401168" /></p>
-<p>这里我修改了主页的头像、网站的标题以及副标题，具体效果如下：</p>
+<p>这里我通过观看注释，修改了主页的头像、网站的标题以及副标题，具体效果如下：</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -1592,7 +1609,7 @@
         data-sizes="auto"
         alt="/images/1709884180301.png"
         title="70988418030" /></p>
-<p>像这样的简单的修改不过多赘述，诸位自行在 loveit 官网查阅了解，很快就能熟悉操作。</p>
+<p>像这样的简单的修改不过多赘述，诸位自行在 loveit 官网查阅了解，很快就能熟悉操作~</p>
 <p>如果大家希望把自己的图片转换为网络连接，推荐使用<a href="https://postimages.org/" target="_blank" rel="noopener noreffer ">https://postimages.org/</a></p>
 </li>
 <li>
@@ -1902,6 +1919,9 @@
 <ol>
 <li id="fn:1">
 <p>比如说我的博客名字叫Chanke，就要去Chanke文件夹里找，不出意外的话这个文件夹一般都在C盘-user-xxx里面&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>doki是我新建的博客文件夹&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
