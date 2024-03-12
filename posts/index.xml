@@ -4,13 +4,21 @@
         <link>http://example.org/posts/</link>
         <description>All Posts | chanke的个人博客网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yichan521@gmail.com (Chanke)</managingEditor>
-            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Mon, 11 Mar 2024 22:04:26 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Tue, 12 Mar 2024 20:49:26 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>离散数学笔记</title>
+    <link>http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Tue, 12 Mar 2024 20:49:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[第一章：命题逻辑的基本概念（上） 1.1 命题与连接词 命题：非真即假的陈述句。 真值：命题的陈述句所表达的判断结果（真为1，假为0） 简单命题或原子命题]]></description>
+</item>
+<item>
     <title>html&#43;css&#43;移动端学习笔记</title>
     <link>http://example.org/html-css-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Mon, 11 Mar 2024 22:04:26 &#43;0800</pubDate>
     <author>Chanke</author>
     <guid>http://example.org/html-css-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[3.11： 相比较而言，三者中结构最重要。 ###1.HTML语法规范 1.1 基本语法概述 1 2 &lt;html&gt;&lt;/html&gt; #标签是尖括号包围的关键词 &lt;br /&gt; #单标签，大部分标签都是]]></description>
+    <description><![CDATA[3.11： 相比较而言，三者中结构最重要。 1.HTML语法规范 1.1 基本语法概述 1 2 &lt;html&gt;&lt;/html&gt; #标签是尖括号包围的关键词 &lt;br /&gt; #单标签，大部分标签都是成对出]]></description>
 </item>
 <item>
     <title>关于hugo搭建个人博客可能会遇到的一些问题</title>
