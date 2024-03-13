@@ -4,9 +4,17 @@
         <link>http://example.org/</link>
         <description>chanke的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yichan521@gmail.com (Chanke)</managingEditor>
-            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Tue, 12 Mar 2024 20:49:26 &#43;0800</lastBuildDate>
+            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Wed, 13 Mar 2024 21:22:35 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>3月13日</title>
+    <link>http://example.org/3.13/</link>
+    <pubDate>Wed, 13 Mar 2024 21:22:35 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://example.org/3.13/</guid>
+    <description><![CDATA[今天把概率论作业写完了，几十道题……她也太敢留了。 课上的时候以为作业不会很多所以没在课上写作业，在课上写了一套卷的3/4，以为自己差不多掌握]]></description>
+</item>
+<item>
     <title>离散数学笔记</title>
     <link>http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Tue, 12 Mar 2024 20:49:26 &#43;0800</pubDate>
