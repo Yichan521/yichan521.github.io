@@ -13,22 +13,6 @@
     <description><![CDATA[今天把概率论作业写完了，几十道题……她也太敢留了。 课上的时候以为作业不会很多所以没在课上写作业，在课上写了一套卷的3/4，以为自己差不多掌握]]></description>
 </item>
 <item>
-    <title>离散数学笔记</title>
-    <link>http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Tue, 12 Mar 2024 20:49:26 &#43;0800</pubDate>
-    <author>Chanke</author>
-    <guid>http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[结合b站视频https://www.bilibili.com/video/BV1Ej411e72S/食用更佳~ 如有侵权请联系我，我会在第一时]]></description>
-</item>
-<item>
-    <title>html&#43;css&#43;移动端学习笔记</title>
-    <link>http://example.org/html-css-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Mon, 11 Mar 2024 22:04:26 &#43;0800</pubDate>
-    <author>Chanke</author>
-    <guid>http://example.org/html-css-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[3.11： 相比较而言，三者中结构最重要。 1.HTML语法规范 1.1 基本语法概述 1 2 &lt;html&gt;&lt;/html&gt; #标签是尖括号包围的关键词 &lt;br /&gt; #单标签，大部分标签都是成对出]]></description>
-</item>
-<item>
     <title>关于hugo搭建个人博客可能会遇到的一些问题</title>
     <link>http://example.org/tips/</link>
     <pubDate>Sat, 09 Mar 2024 12:45:22 &#43;0800</pubDate>
@@ -51,14 +35,6 @@
     <author>Chanke</author>
     <guid>http://example.org/self-introduction/</guid>
     <description><![CDATA[你好~欢迎点进这个博客的友友们！ 这里是Chanke，漫漫计算机长路中一个微不足道的学徒…… 这个博客会用来记录我的学习过程！未来在这里可能会更]]></description>
-</item>
-<item>
-    <title>第一篇文章/简单markdown语法应用</title>
-    <link>http://example.org/instruction/</link>
-    <pubDate>Fri, 08 Mar 2024 15:38:26 &#43;0800</pubDate>
-    <author>Chanke</author>
-    <guid>http://example.org/instruction/</guid>
-    <description><![CDATA[总算是完成了个人博客搭建的初步工作了！ 现在的博客以及可以进行一些简单的修改，比如说上传文章、连接到作者的社交主页等等基础的工作了。 虽然距离一]]></description>
 </item>
 </channel>
 </rss>
