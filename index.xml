@@ -4,9 +4,17 @@
         <link>http://example.org/</link>
         <description>chanke的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yichan521@gmail.com (Chanke)</managingEditor>
-            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Fri, 02 Aug 2024 18:32:26 &#43;0800</lastBuildDate>
+            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Mon, 12 Aug 2024 18:32:26 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>8.12</title>
+    <link>http://example.org/8.12/</link>
+    <pubDate>Mon, 12 Aug 2024 18:32:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://example.org/8.12/</guid>
+    <description><![CDATA[阴天 28℃ 沉寂，如死水一样的沉寂，风吹也不动——我八月开始至今的生活，差不多可以这样被概述。 又是一个炎热的阴天。 其实太阳并没有消失，只是委身]]></description>
+</item>
+<item>
     <title>七月摘</title>
     <link>http://example.org/7.27-%E4%B8%83%E6%9C%88%E6%91%98/</link>
     <pubDate>Fri, 02 Aug 2024 18:32:26 &#43;0800</pubDate>
