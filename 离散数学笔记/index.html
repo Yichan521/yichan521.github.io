@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>离散数学笔记 - chanke的个人博客网站</title><meta name="Description" content="chanke的全新 Hugo 网站"><meta property="og:title" content="离散数学笔记" />
+<meta property="og:description" content="结合b站视频https://www.bilibili.com/video/BV1Ej411e72S/食用更佳~ 如有侵权请联系我，我会在第一时" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/" /><meta property="og:image" content="https://i.postimg.cc/8zm9Cfpv/QQ-20220722232616.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-12T20:49:26+08:00" />
+<meta property="article:modified_time" content="2024-03-12T20:49:26+08:00" /><meta property="og:site_name" content="chanke_doki的网站" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://i.postimg.cc/8zm9Cfpv/QQ-20220722232616.jpg" /><meta name="twitter:title" content="离散数学笔记"/>
+<meta name="twitter:description" content="结合b站视频https://www.bilibili.com/video/BV1Ej411e72S/食用更佳~ 如有侵权请联系我，我会在第一时"/>
+<meta name="twitter:site" content="@ChankeDoki"/>
+<meta name="application-name" content="chanke的网站">
+<meta name="apple-mobile-web-app-title" content="chanke的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/" /><link rel="prev" href="http://example.org/html-css-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" /><link rel="next" href="http://example.org/3.13/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "离散数学笔记",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0\/"
+        },"genre": "posts","wordcount":  1376 ,
+        "url": "http:\/\/example.org\/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0\/","datePublished": "2024-03-12T20:49:26+08:00","dateModified": "2024-03-12T20:49:26+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Chanke"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="chanke的个人博客网站"></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="chanke的个人博客网站"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">离散数学笔记</h1><h2 class="single-subtitle">离散数学我恨你……虽然你不难</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chanke</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-03-12">2024-03-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1376 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#第一章命题逻辑的基本概念上">第一章：命题逻辑的基本概念（上）</a>
+          <ul>
+            <li><a href="#11-命题与连接词">1.1 命题与连接词</a></li>
+          </ul>
+        </li>
+        <li><a href="#第一章命题逻辑的基本概念下">第一章：命题逻辑的基本概念（下）</a>
+          <ul>
+            <li><a href="#12-命题公式及其赋值">1.2 命题公式及其赋值</a></li>
+          </ul>
+        </li>
+        <li><a href="#第二章命题逻辑等值演算">第二章：命题逻辑等值演算</a>
+          <ul>
+            <li><a href="#21-等值式">2.1 等值式</a></li>
+            <li><a href="#22-析取范式与合取范式">2.2 析取范式与合取范式</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>结合b站视频<a href="https://www.bilibili.com/video/BV1Ej411e72S/" target="_blank" rel="noopener noreffer ">https://www.bilibili.com/video/BV1Ej411e72S/</a>食用更佳~</p>
+<p>如有侵权请联系我，我会在第一时间删除。</p>
+<h3 id="第一章命题逻辑的基本概念上">第一章：命题逻辑的基本概念（上）</h3>
+<h4 id="11-命题与连接词">1.1 命题与连接词</h4>
+<p>命题：非真即假的<strong>陈述句</strong>。</p>
+<p>真值：命题的陈述句所表达的判断结果（<strong>真为1，假为0</strong>）</p>
+<p>简单命题或原子命题：不能再被分解成更简单的命题。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">例：我下午在图书馆
+</span></span><span class="line"><span class="cl">例：雪是白的
+</span></span><span class="line"><span class="cl">例：3&gt;2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>悖论：既不能为真又不能为假的陈述句。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">例：我正在说假话
+</span></span><span class="line"><span class="cl">例：我正在说谎
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>连接词：</p>
+<p>由连接词连接的多个简单命题我们称作<strong>复合命题</strong>。</p>
+<ul>
+<li>
+<p>非  &ldquo;¬&rdquo;</p>
+<p><strong>真变假，假变真</strong></p>
+</li>
+<li>
+<p>合取  &ldquo;∧&rdquo;</p>
+<p>相当于逻辑与，<strong>有假则假，全真才真</strong></p>
+</li>
+<li>
+<p>析取  &ldquo;∨&rdquo;</p>
+<p>相当于逻辑或，<strong>有真则真，全假才假</strong></p>
+</li>
+<li>
+<p>蕴含  &ldquo;→&rdquo;</p>
+<p>p→q意思是<strong>如果p，则q</strong>，由前件p可推出后件q，p是q的充分条件，q是p的必要条件。</p>
+<p>如果<strong>p为真，q为假，则为假，其他均真</strong>（真推出假则为假）</p>
+</li>
+<li>
+<p>等价  &ldquo;↔&rdquo;</p>
+<p>p当且仅当q，<strong>真假情况相同则真</strong>。</p>
+</li>
+</ul>
+<p>优先级由高到低：<strong>（） ¬  ∧  ∨  →   ↔</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">她跑得快跳得高</th>
+<th style="text-align:left">p：她跑得快 q：她跳得高 p∧q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">王是山东人或河北人</td>
+<td style="text-align:left">p：王是山东人 q：王是河北人 p∨q</td>
+</tr>
+<tr>
+<td style="text-align:left">此时他要么在学习要么在玩</td>
+<td style="text-align:left">p：他在学习 q：他在玩 (p∧¬q)∨(¬p∧ q)</td>
+</tr>
+<tr>
+<td style="text-align:left">2与4都是素数是不对的</td>
+<td style="text-align:left">p：2是素数 q：4是素数 ¬(p∧q)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="第一章命题逻辑的基本概念下">第一章：命题逻辑的基本概念（下）</h3>
+<h4 id="12-命题公式及其赋值">1.2 命题公式及其赋值</h4>
+<p>将命题变项用连接词和圆括号按照一定关系联结起来的符号串称作<strong>合式公式</strong>。</p>
+<ul>
+<li>
+<p>成真赋值</p>
+<p>若指定的一组值使得A为1，则称这组值为A的成真赋值。</p>
+</li>
+<li>
+<p>成假赋值</p>
+<p>若使A为0，则称这组值为A的成假赋值。</p>
+</li>
+<li>
+<p>重言式</p>
+<p>若A在它的各种赋值下取值均为真，则称A为<strong>重言式或永真式</strong>。</p>
+</li>
+<li>
+<p>矛盾式</p>
+<p>若A在它的各种赋值下取值均为假，则称A为<strong>矛盾式</strong>。</p>
+</li>
+<li>
+<p>可满足式</p>
+<p>若A不是矛盾式，则称A为<strong>可满足式</strong>。</p>
+</li>
+<li>
+<p>判断公式的类型</p>
+<p>eg：判断公式¬(p→q)∧q的类型。</p>
+</li>
+</ul>
+<p><strong>真值表法</strong></p>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>p→q</th>
+<th>¬(p→q)</th>
+<th>¬(p→q)∧q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>求成真赋值或者成假赋值</p>
+<p>求公式(p→¬q)→r 成真赋值、成假赋值</p>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>¬q</th>
+<th>(p→¬q)</th>
+<th>(p→¬q)→r</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3 id="第二章命题逻辑等值演算">第二章：命题逻辑等值演算</h3>
+<h4 id="21-等值式">2.1 等值式</h4>
+<ul>
+<li>
+<p>定义：</p>
+<p>若等价式A&lt;=&gt;B是重言式，则称A与B等值，记作A&lt;=&gt;B，并称A&lt;=&gt;B是等值式。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/1710246098396.png"
+        data-srcset="/images/1710246098396.png, /images/1710246098396.png 1.5x, /images/1710246098396.png 2x"
+        data-sizes="auto"
+        alt="/images/1710246098396.png"
+        title="71024609839" /></p>
+</li>
+</ul>
+<p>以上可以用于<strong>判断公式类型</strong>与<strong>证明题</strong>。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/1710247125087.png"
+        data-srcset="/images/1710247125087.png, /images/1710247125087.png 1.5x, /images/1710247125087.png 2x"
+        data-sizes="auto"
+        alt="/images/1710247125087.png"
+        title="71024712508" /></p>
+<h4 id="22-析取范式与合取范式">2.2 析取范式与合取范式</h4>
+<ul>
+<li>
+<p>简单析取式</p>
+<p>有限个文字构成的析取式</p>
+<p>p，¬q，p∨¬q，p∨q∨r，……</p>
+</li>
+<li>
+<p>简单合取式</p>
+<p>有限个文字构成的合取式</p>
+<p>p，¬q，p∧q，p∧q∧r，……</p>
+</li>
+<li>
+<p><strong>单个文字既是简单析取式，又是简单合取式，比如：p，¬q</strong></p>
+</li>
+<li>
+<p>析取范式</p>
+<p>由有限个简单合取式组成的析取式</p>
+<p>(p∧¬q)∨(¬p∧q∧¬r)∨(q∧r)</p>
+</li>
+<li>
+<p>合取范式</p>
+<p>由有限个简单析取式组成的合取式</p>
+<p>(p∨¬q)∧(¬p∨q∨¬r)∧(q∨r)</p>
+</li>
+<li>
+<p><strong>极小项与极大项</strong></p>
+<ul>
+<li>
+<p><strong>极小项</strong></p>
+<p>m=q1∧q2∧&hellip;∧qn</p>
+<p>成真赋值。每个极小项对应一个二进制数。</p>
+</li>
+<li>
+<p><strong>极大项</strong></p>
+<p>M=q1∨q2∨&hellip;∨qn</p>
+<p>成假赋值。每个极大项对应一个二进制数。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/1710249344485.png"
+        data-srcset="/images/1710249344485.png, /images/1710249344485.png 1.5x, /images/1710249344485.png 2x"
+        data-sizes="auto"
+        alt="/images/1710249344485.png"
+        title="71024934448" /></p>
+<ul>
+<li>
+<p><strong>主析取范式 主合取范式</strong></p>
+<ul>
+<li>
+<p>主析取范式</p>
+<p>由极小项构成的析取范式</p>
+</li>
+<li>
+<p>主合取范式</p>
+<p>由极大项构成的合取范式</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>任何命题公式都存在惟一的主析取范式和主合取范式。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/1710249794043.png"
+        data-srcset="/images/1710249794043.png, /images/1710249794043.png 1.5x, /images/1710249794043.png 2x"
+        data-sizes="auto"
+        alt="/images/1710249794043.png"
+        title="71024979404" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-03-12</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/" data-title="离散数学笔记" data-via="ChankeDoki"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/" data-title="离散数学笔记"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/" data-title="离散数学笔记"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/" data-title="离散数学笔记"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/html-css-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="prev" rel="prev" title="html&#43;css&#43;移动端学习笔记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>html+css+移动端学习笔记</a>
+            <a href="/3.13/" class="next" rel="next" title="3月13日">3月13日<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.123.7">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Chanke</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

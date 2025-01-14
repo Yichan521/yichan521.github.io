@@ -1,0 +1,50 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>chanke的个人博客网站</title>
+        <link>http://localhost:59292/</link>
+        <description>chanke的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yichan521@gmail.com (Chanke)</managingEditor>
+            <webMaster>yichan521@gmail.com (Chanke)</webMaster><lastBuildDate>Mon, 12 Aug 2024 18:32:26 &#43;0800</lastBuildDate>
+            <atom:link href="http://localhost:59292/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>8.12</title>
+    <link>http://localhost:59292/8.12/</link>
+    <pubDate>Mon, 12 Aug 2024 18:32:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://localhost:59292/8.12/</guid>
+    <description><![CDATA[阴天 28℃ 沉寂，如死水一样的沉寂，风吹也不动——我八月开始至今的生活，差不多可以这样被概述。 又是一个炎热的阴天。 其实太阳并没有消失，只是委身]]></description>
+</item>
+<item>
+    <title>七月摘</title>
+    <link>http://localhost:59292/7.27-%E4%B8%83%E6%9C%88%E6%91%98/</link>
+    <pubDate>Fri, 02 Aug 2024 18:32:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://localhost:59292/7.27-%E4%B8%83%E6%9C%88%E6%91%98/</guid>
+    <description><![CDATA[零 现在是 7 月 27 日下午 15：55，我终于回到了自己家，在属于我的小房间里写下这篇月记。 （实际上这篇是在 8.1 完工的！） 窗外的雨声时而激荡，时而忧伤]]></description>
+</item>
+<item>
+    <title>关于hugo搭建个人博客可能会遇到的一些问题</title>
+    <link>http://localhost:59292/tips/</link>
+    <pubDate>Sat, 09 Mar 2024 12:45:22 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://localhost:59292/tips/</guid>
+    <description><![CDATA[还是更推荐大家去 loveit 官网学习，那里的知识更全面更专业…… 不过肯定有人看不懂，导致在网上找教程也找不到……比如我，所以写此篇来记录我博客搭建过程]]></description>
+</item>
+<item>
+    <title>hugo搭建个人博客笔记</title>
+    <link>http://localhost:59292/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Fri, 08 Mar 2024 20:58:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://localhost:59292/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[windows 电脑安装 hugo 首先进入https://github.com/gohugoio/hugo/releases，选择自己电脑对应的版本下载，我这里下]]></description>
+</item>
+<item>
+    <title>自我介绍</title>
+    <link>http://localhost:59292/self-introduction/</link>
+    <pubDate>Fri, 08 Mar 2024 16:49:26 &#43;0800</pubDate>
+    <author>Chanke</author>
+    <guid>http://localhost:59292/self-introduction/</guid>
+    <description><![CDATA[你好~欢迎点进这个博客的友友们！ 这里是 Chanke，漫漫计算机长路中一个微不足道的学徒…… 这个博客会用来记录我的学习过程！未来在这里可能会更]]></description>
+</item>
+</channel>
+</rss>
